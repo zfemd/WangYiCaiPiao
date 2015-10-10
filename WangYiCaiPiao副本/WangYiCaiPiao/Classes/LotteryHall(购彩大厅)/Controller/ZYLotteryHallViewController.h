@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZYLotteryHallViewController : UIViewController
+@interface ZYLotteryHallViewController : UITableViewController
 
 @end

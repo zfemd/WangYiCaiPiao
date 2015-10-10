@@ -14,6 +14,7 @@
 #import "ZYMyLotteryViewController.h"
 #import "ZYTabBar.h"
 #import "ZYNavigationController.h"
+#import "ZYArenaNavigationController.h"
 
 @interface ZYTabBarController ()<ZYTabBarDelgate>
 
@@ -75,7 +76,7 @@
     [self setupChildViewController:[[ZYLotteryHallViewController alloc] init] image:@"TabBar_LotteryHall_new" selectedImage:@"TabBar_LotteryHall_selected_new" title:@"购彩大厅"];
     
     // 竞技场
-    [self setupChildViewController:[[ZYArenaViewController alloc] init] image:@"TabBar_Arena_new" selectedImage:@"TabBar_Arena_selected_new" title:@"足球"];
+    [self setupChildViewController:[[ZYArenaViewController alloc] init] image:@"TabBar_Arena_new" selectedImage:@"TabBar_Arena_selected_new" title:nil];
     
     // 发现
     [self setupChildViewController:[[ZYDiscoveryViewController alloc] init] image:@"TabBar_Discovery_new" selectedImage:@"TabBar_Discovery_selected_new" title:@"发现"];
@@ -103,7 +104,7 @@
     // 包装成导航控制器
     UINavigationController *nav = [[ZYNavigationController alloc] initWithRootViewController:vc];
     
-    if ([vc isKindOfClass:[ZYArenaViewController class]]) {             nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    if ([vc isKindOfClass:[ZYArenaViewController class]]) {             nav = [[ZYArenaNavigationController alloc] initWithRootViewController:vc];
     }
     
     [self addChildViewController:nav];
