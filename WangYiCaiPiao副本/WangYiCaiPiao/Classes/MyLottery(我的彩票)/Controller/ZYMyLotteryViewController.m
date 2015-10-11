@@ -7,6 +7,8 @@
 //
 
 #import "ZYMyLotteryViewController.h"
+#import "UIImage+ZYImage.h"
+#import "ZYSettingTableViewController.h"
 
 @interface ZYMyLotteryViewController ()
 
@@ -14,24 +16,46 @@
 
 @implementation ZYMyLotteryViewController
 
+#pragma mark - 初始化
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self setupLeftAndRightBtn];
+    
+    self.view.backgroundColor = ZYColor(244, 241, 223);
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - 设置
+- (void)setupLeftAndRightBtn
+{
+    // 设置导航条左边按钮
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setImage:[UIImage imageNamed:@"Mylottery_FBMM_Barbutton"] forState:UIControlStateNormal];
+    [btn setTitle:@"客服" forState:UIControlStateNormal];
+    
+    // 设置图片与文字间距
+    [btn setTitleEdgeInsets:UIEdgeInsetsMake(0, 5, 0, -5)];
+    btn.titleLabel.font = [UIFont systemFontOfSize:18];
+    [btn addTarget:self action:@selector(serviceClick) forControlEvents:UIControlEventTouchUpInside];
+    
+    // 按钮自动计算尺寸
+    [btn sizeToFit];
+    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
+    
+    // 设置导航条右边按钮
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageWithOriginRenderingName:@"Mylottery_config"] style:UIBarButtonItemStylePlain target:self action:@selector(setting)];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - method
+- (void)serviceClick
+{
+    ZYLogFunc;
 }
-*/
+
+- (void)setting
+{
+    [self.navigationController pushViewController:[[ZYSettingTableViewController alloc] init] animated:YES];
+}
 
 @end

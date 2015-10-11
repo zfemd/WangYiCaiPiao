@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E24E0D71BCA297F0038C0E1 /* ZYSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24E0D51BCA297F0038C0E1 /* ZYSettingTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2E24E0DB1BCA6D000038C0E1 /* ZYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24E0DA1BCA6D000038C0E1 /* ZYTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		2E66871B1BA8627400CB4B25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E66871A1BA8627400CB4B25 /* Images.xcassets */; };
 		2E66872A1BA8627400CB4B25 /* WangYiCaiPiaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6687291BA8627400CB4B25 /* WangYiCaiPiaoTests.m */; };
 		2E933AFB1BC8D7F8007A14B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E933AFA1BC8D7F8007A14B8 /* main.m */; settings = {ASSET_TAGS = (); }; };
@@ -14,6 +16,7 @@
 		2E933B011BC8DCEC007A14B8 /* ZYPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E933B001BC8DCEC007A14B8 /* ZYPopMenuView.m */; settings = {ASSET_TAGS = (); }; };
 		2E933B031BC8DD11007A14B8 /* ZYPopMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E933B021BC8DD11007A14B8 /* ZYPopMenuView.xib */; settings = {ASSET_TAGS = (); }; };
 		2E933B061BC8F162007A14B8 /* ZYArenaNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E933B051BC8F162007A14B8 /* ZYArenaNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		2E933B081BC904C5007A14B8 /* ZYMyLotteryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E933B071BC904C5007A14B8 /* ZYMyLotteryViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		2EA109BC1BBD2A3F002DE192 /* ZYArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1098F1BBD2A3F002DE192 /* ZYArenaViewController.m */; settings = {ASSET_TAGS = (); }; };
 		2EA109BD1BBD2A3F002DE192 /* ZYDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA109951BBD2A3F002DE192 /* ZYDiscoveryViewController.m */; settings = {ASSET_TAGS = (); }; };
 		2EA109BE1BBD2A3F002DE192 /* ZYHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1099B1BBD2A3F002DE192 /* ZYHistoryViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -38,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E24E0D41BCA297F0038C0E1 /* ZYSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSettingTableViewController.h; sourceTree = "<group>"; };
+		2E24E0D51BCA297F0038C0E1 /* ZYSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSettingTableViewController.m; sourceTree = "<group>"; };
+		2E24E0D91BCA6D000038C0E1 /* ZYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTableViewCell.h; sourceTree = "<group>"; };
+		2E24E0DA1BCA6D000038C0E1 /* ZYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTableViewCell.m; sourceTree = "<group>"; };
 		2E66870A1BA8627400CB4B25 /* WangYiCaiPiao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WangYiCaiPiao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E66870E1BA8627400CB4B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E66871A1BA8627400CB4B25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -52,6 +59,8 @@
 		2E933B021BC8DD11007A14B8 /* ZYPopMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYPopMenuView.xib; sourceTree = "<group>"; };
 		2E933B041BC8F162007A14B8 /* ZYArenaNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYArenaNavigationController.h; sourceTree = "<group>"; };
 		2E933B051BC8F162007A14B8 /* ZYArenaNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYArenaNavigationController.m; sourceTree = "<group>"; };
+		2E933B071BC904C5007A14B8 /* ZYMyLotteryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYMyLotteryViewController.xib; sourceTree = "<group>"; };
+		2E933B091BC96A95007A14B8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		2EA1098E1BBD2A3F002DE192 /* ZYArenaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYArenaViewController.h; sourceTree = "<group>"; };
 		2EA1098F1BBD2A3F002DE192 /* ZYArenaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYArenaViewController.m; sourceTree = "<group>"; };
 		2EA109941BBD2A3F002DE192 /* ZYDiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDiscoveryViewController.h; sourceTree = "<group>"; };
@@ -96,6 +105,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E24E0D01BCA290C0038C0E1 /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				2E24E0D21BCA290C0038C0E1 /* Model */,
+				2E24E0D31BCA290C0038C0E1 /* View */,
+				2E24E0D11BCA290C0038C0E1 /* Controller */,
+			);
+			path = "Setting(设置)";
+			sourceTree = "<group>";
+		};
+		2E24E0D11BCA290C0038C0E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E24E0D41BCA297F0038C0E1 /* ZYSettingTableViewController.h */,
+				2E24E0D51BCA297F0038C0E1 /* ZYSettingTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2E24E0D21BCA290C0038C0E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E24E0D31BCA290C0038C0E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E24E0D91BCA6D000038C0E1 /* ZYTableViewCell.h */,
+				2E24E0DA1BCA6D000038C0E1 /* ZYTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		2E6687011BA8627400CB4B25 = {
 			isa = PBXGroup;
 			children = (
@@ -184,9 +228,9 @@
 		2EA1098C1BBD2A3F002DE192 /* Arena(竞技场) */ = {
 			isa = PBXGroup;
 			children = (
-				2EA1098D1BBD2A3F002DE192 /* Controller */,
 				2EA109901BBD2A3F002DE192 /* Model */,
 				2EA109911BBD2A3F002DE192 /* View */,
+				2EA1098D1BBD2A3F002DE192 /* Controller */,
 			);
 			path = "Arena(竞技场)";
 			sourceTree = "<group>";
@@ -219,9 +263,9 @@
 		2EA109921BBD2A3F002DE192 /* Discovery(发现) */ = {
 			isa = PBXGroup;
 			children = (
-				2EA109931BBD2A3F002DE192 /* Controller */,
 				2EA109961BBD2A3F002DE192 /* Model */,
 				2EA109971BBD2A3F002DE192 /* View */,
+				2EA109931BBD2A3F002DE192 /* Controller */,
 			);
 			path = "Discovery(发现)";
 			sourceTree = "<group>";
@@ -252,9 +296,9 @@
 		2EA109981BBD2A3F002DE192 /* History(开奖信息) */ = {
 			isa = PBXGroup;
 			children = (
-				2EA109991BBD2A3F002DE192 /* Controller */,
 				2EA1099C1BBD2A3F002DE192 /* Model */,
 				2EA1099D1BBD2A3F002DE192 /* View */,
+				2EA109991BBD2A3F002DE192 /* Controller */,
 			);
 			path = "History(开奖信息)";
 			sourceTree = "<group>";
@@ -285,9 +329,9 @@
 		2EA1099E1BBD2A3F002DE192 /* LotteryHall(购彩大厅) */ = {
 			isa = PBXGroup;
 			children = (
-				2EA1099F1BBD2A3F002DE192 /* Controller */,
 				2EA109A21BBD2A3F002DE192 /* Model */,
 				2EA109A31BBD2A3F002DE192 /* View */,
+				2EA1099F1BBD2A3F002DE192 /* Controller */,
 			);
 			path = "LotteryHall(购彩大厅)";
 			sourceTree = "<group>";
@@ -321,9 +365,9 @@
 		2EA109A41BBD2A3F002DE192 /* Main(主要) */ = {
 			isa = PBXGroup;
 			children = (
-				2EA109A51BBD2A3F002DE192 /* Controller */,
 				2EA109AA1BBD2A3F002DE192 /* Model */,
 				2EA109AB1BBD2A3F002DE192 /* View */,
+				2EA109A51BBD2A3F002DE192 /* Controller */,
 			);
 			path = "Main(主要)";
 			sourceTree = "<group>";
@@ -360,9 +404,10 @@
 		2EA109B01BBD2A3F002DE192 /* MyLottery(我的彩票) */ = {
 			isa = PBXGroup;
 			children = (
-				2EA109B11BBD2A3F002DE192 /* Controller */,
 				2EA109B41BBD2A3F002DE192 /* Model */,
 				2EA109B51BBD2A3F002DE192 /* View */,
+				2EA109B11BBD2A3F002DE192 /* Controller */,
+				2E24E0D01BCA290C0038C0E1 /* Setting(设置) */,
 			);
 			path = "MyLottery(我的彩票)";
 			sourceTree = "<group>";
@@ -372,6 +417,7 @@
 			children = (
 				2EA109B21BBD2A3F002DE192 /* ZYMyLotteryViewController.h */,
 				2EA109B31BBD2A3F002DE192 /* ZYMyLotteryViewController.m */,
+				2E933B071BC904C5007A14B8 /* ZYMyLotteryViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -398,6 +444,7 @@
 				2EA109B71BBD2A3F002DE192 /* AppDelegate.h */,
 				2EA109B81BBD2A3F002DE192 /* AppDelegate.m */,
 				2E933AFA1BC8D7F8007A14B8 /* main.m */,
+				2E933B091BC96A95007A14B8 /* PrefixHeader.pch */,
 			);
 			path = "Other(其它)";
 			sourceTree = "<group>";
@@ -504,6 +551,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E933B031BC8DD11007A14B8 /* ZYPopMenuView.xib in Resources */,
+				2E933B081BC904C5007A14B8 /* ZYMyLotteryViewController.xib in Resources */,
 				2E66871B1BA8627400CB4B25 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -572,7 +620,9 @@
 			files = (
 				2EA109C51BBD2A3F002DE192 /* AppDelegate.m in Sources */,
 				2EA109C31BBD2A3F002DE192 /* ZYTabBarButton.m in Sources */,
+				2E24E0DB1BCA6D000038C0E1 /* ZYTableViewCell.m in Sources */,
 				2E933AFE1BC8D82E007A14B8 /* UIImage+ZYImage.m in Sources */,
+				2E24E0D71BCA297F0038C0E1 /* ZYSettingTableViewController.m in Sources */,
 				2EA109BE1BBD2A3F002DE192 /* ZYHistoryViewController.m in Sources */,
 				2E933B011BC8DCEC007A14B8 /* ZYPopMenuView.m in Sources */,
 				2EA109C01BBD2A3F002DE192 /* ZYNavigationController.m in Sources */,
@@ -694,6 +744,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "WangYiCaiPiao/Classes/Other(其它)/PrefixHeader.pch";
 				INFOPLIST_FILE = WangYiCaiPiao/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -707,6 +758,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "WangYiCaiPiao/Classes/Other(其它)/PrefixHeader.pch";
 				INFOPLIST_FILE = WangYiCaiPiao/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

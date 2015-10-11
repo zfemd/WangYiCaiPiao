@@ -61,7 +61,7 @@
     // 传对应子控制器的tabBarItem数组
     tabBar.items = self.items;
     
-    tabBar.backgroundColor = [UIColor greenColor];
+    tabBar.backgroundColor = [UIColor blackColor];
     
     tabBar.frame = self.tabBar.frame;
     
@@ -73,19 +73,19 @@
 - (void)setUpAllChildViewController
 {
     // 购彩大厅
-    [self setupChildViewController:[[ZYLotteryHallViewController alloc] init] image:@"TabBar_LotteryHall_new" selectedImage:@"TabBar_LotteryHall_selected_new" title:@"购彩大厅"];
+    [self setupChildViewController:[[ZYLotteryHallViewController alloc] init] image:@"TabBar_LotteryHall" selectedImage:@"TabBar_LotteryHall_selected" title:nil];
     
     // 竞技场
-    [self setupChildViewController:[[ZYArenaViewController alloc] init] image:@"TabBar_Arena_new" selectedImage:@"TabBar_Arena_selected_new" title:nil];
+    [self setupChildViewController:[[ZYArenaViewController alloc] init] image:@"TabBar_Arena" selectedImage:@"TabBar_Arena_selected" title:@"足球"];
     
     // 发现
-    [self setupChildViewController:[[ZYDiscoveryViewController alloc] init] image:@"TabBar_Discovery_new" selectedImage:@"TabBar_Discovery_selected_new" title:@"发现"];
+    [self setupChildViewController:[[ZYDiscoveryViewController alloc] init] image:@"TabBar_Discovery" selectedImage:@"TabBar_Discovery_selected" title:@"发现"];
     
-    // 中奖信息
-    [self setupChildViewController:[[ZYHistoryViewController alloc] init] image:@"TabBar_History_new" selectedImage:@"TabBar_History_selected_new" title:@"开奖信息"];
+    // 开奖信息
+    [self setupChildViewController:[[ZYHistoryViewController alloc] init] image:@"TabBar_History" selectedImage:@"TabBar_History_selected" title:@"开奖信息"];
     
     // 我的彩票
-    [self setupChildViewController:[[ZYMyLotteryViewController alloc] init] image:@"TabBar_MyLottery_new" selectedImage:@"TabBar_MyLottery_selected_new" title:@"我的彩票"];
+    [self setupChildViewController:[[ZYMyLotteryViewController alloc] init] image:@"TabBar_MyLottery" selectedImage:@"TabBar_MyLottery_selected" title:@"我的彩票"];
 }
 
 #pragma mark - 添加一个子控制器，并且设置对应的内容
@@ -104,7 +104,9 @@
     // 包装成导航控制器
     UINavigationController *nav = [[ZYNavigationController alloc] initWithRootViewController:vc];
     
-    if ([vc isKindOfClass:[ZYArenaViewController class]]) {             nav = [[ZYArenaNavigationController alloc] initWithRootViewController:vc];
+    if ([vc isKindOfClass:[ZYArenaViewController class]]) {
+//        nav = [[UINavigationController alloc] initWithRootViewController:vc];
+//        [nav.navigationItem.title sizeWithFont:[UIFont systemFontOfSize:10]];
     }
     
     [self addChildViewController:nav];

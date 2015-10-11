@@ -26,7 +26,7 @@
     // 设置导航条文字颜色
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     dict[NSForegroundColorAttributeName] = [UIColor whiteColor];
-    dict[NSFontAttributeName] = [UIFont boldSystemFontOfSize:17];
+    dict[NSFontAttributeName] = [UIFont boldSystemFontOfSize:20];
     [bar setTitleTextAttributes:dict];
 }
 

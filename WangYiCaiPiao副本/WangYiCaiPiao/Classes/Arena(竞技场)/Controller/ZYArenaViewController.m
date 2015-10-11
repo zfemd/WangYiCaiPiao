@@ -18,12 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self setupNavgationTitle];
+//    [self setupNavgationTitle];
     
 //    self.navigationController.navigationBarHidden = YES;
+    
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    dict[NSForegroundColorAttributeName] = [UIColor whiteColor];
+    dict[NSFontAttributeName] = [UIFont boldSystemFontOfSize:17];
+    [self.navigationController.navigationBar setTitleTextAttributes:dict];
 }
 
-- (void)loadView
+- (void)setupLoadView
 {
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:[UIApplication sharedApplication].keyWindow.bounds];
     imageView.image = [UIImage imageNamed:@"NLArenaBackground"];

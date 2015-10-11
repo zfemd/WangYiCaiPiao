@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  WangYiCaiPiao
+//
+//  Created by JamesZY on 15/10/10.
+//  Copyright © 2015年 JamesZY. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// 日志输出
+#ifdef DEBUG
+// 开发阶段->DEBUG阶段:使用Log
+#define ZYLog(...) NSLog(__VA_ARGS__)
+#else
+// 发布阶段->上线阶段:移除Log
+#define ZYLog(...)
+#endif
+// 方法输出
+#define ZYLogFunc ZYLog(@"%s",__func__)
+
+// 颜色
+#define ZYARGBColor(a, r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define ZYColor(r, g, b) ZYARGBColor(255, (r), (g), (b))
+#define ZYGrayColor(v) ZYColor((v), (v), (v))
+#define ZYCommonBgColor ZYGrayColor(215)
+#define ZYRandomColor ZYColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+// 标签的背景颜色
+#define ZYTagBgColor ZYColor(70, 142, 243)
+
+#endif /* PrefixHeader_pch */
