@@ -7,17 +7,33 @@
 //
 
 #import "ZYTableViewCell.h"
+#import "ZYSettingItem.h"
+
+@interface ZYTableViewCell ()
+
+@end
 
 @implementation ZYTableViewCell
 
-- (void)awakeFromNib {
-    // Initialization code
+- (void)setItem:(ZYSettingItem *)item
+{
+    _item = item;
+    
+    self.imageView.image = [UIImage imageNamed:item.icon];
+    self.textLabel.text = item.title;
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
++ (instancetype)cellWithTableView:(UITableView *)tableView
+{
+    static NSString *ID = @"settingCell";
+    
+    ZYTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+    
+    if (!cell) {
+        cell = [[ZYTableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:ID];
+    }
+    
+    return cell;
 }
 
 @end

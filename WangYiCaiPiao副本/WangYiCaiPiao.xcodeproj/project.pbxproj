@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		2E24E0D71BCA297F0038C0E1 /* ZYSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24E0D51BCA297F0038C0E1 /* ZYSettingTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		2E24E0DB1BCA6D000038C0E1 /* ZYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24E0DA1BCA6D000038C0E1 /* ZYTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		2E24E0DE1BCA70140038C0E1 /* ZYSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24E0DD1BCA70140038C0E1 /* ZYSettingItem.m */; settings = {ASSET_TAGS = (); }; };
+		2E24E0E41BCA78190038C0E1 /* ZYSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24E0E31BCA78190038C0E1 /* ZYSettingGroup.m */; settings = {ASSET_TAGS = (); }; };
+		2E24E0E71BCAB5800038C0E1 /* ZYSettingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24E0E61BCAB5800038C0E1 /* ZYSettingTableView.m */; settings = {ASSET_TAGS = (); }; };
 		2E66871B1BA8627400CB4B25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E66871A1BA8627400CB4B25 /* Images.xcassets */; };
 		2E66872A1BA8627400CB4B25 /* WangYiCaiPiaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6687291BA8627400CB4B25 /* WangYiCaiPiaoTests.m */; };
 		2E933AFB1BC8D7F8007A14B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E933AFA1BC8D7F8007A14B8 /* main.m */; settings = {ASSET_TAGS = (); }; };
@@ -17,6 +20,10 @@
 		2E933B031BC8DD11007A14B8 /* ZYPopMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E933B021BC8DD11007A14B8 /* ZYPopMenuView.xib */; settings = {ASSET_TAGS = (); }; };
 		2E933B061BC8F162007A14B8 /* ZYArenaNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E933B051BC8F162007A14B8 /* ZYArenaNavigationController.m */; settings = {ASSET_TAGS = (); }; };
 		2E933B081BC904C5007A14B8 /* ZYMyLotteryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E933B071BC904C5007A14B8 /* ZYMyLotteryViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		2E9E5C071BCBBBA0008C48A6 /* ZYDiscoverTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9E5C061BCBBBA0008C48A6 /* ZYDiscoverTableView.m */; settings = {ASSET_TAGS = (); }; };
+		2E9E5C0A1BCBBBE6008C48A6 /* ZYDiscoverItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9E5C091BCBBBE6008C48A6 /* ZYDiscoverItem.m */; settings = {ASSET_TAGS = (); }; };
+		2E9E5C0D1BCBBD94008C48A6 /* ZYDiscoverGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9E5C0C1BCBBD94008C48A6 /* ZYDiscoverGroup.m */; settings = {ASSET_TAGS = (); }; };
+		2E9E5C101BCBC247008C48A6 /* ZYDiscoverTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9E5C0F1BCBC247008C48A6 /* ZYDiscoverTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		2EA109BC1BBD2A3F002DE192 /* ZYArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1098F1BBD2A3F002DE192 /* ZYArenaViewController.m */; settings = {ASSET_TAGS = (); }; };
 		2EA109BD1BBD2A3F002DE192 /* ZYDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA109951BBD2A3F002DE192 /* ZYDiscoveryViewController.m */; settings = {ASSET_TAGS = (); }; };
 		2EA109BE1BBD2A3F002DE192 /* ZYHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1099B1BBD2A3F002DE192 /* ZYHistoryViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -45,6 +52,12 @@
 		2E24E0D51BCA297F0038C0E1 /* ZYSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSettingTableViewController.m; sourceTree = "<group>"; };
 		2E24E0D91BCA6D000038C0E1 /* ZYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTableViewCell.h; sourceTree = "<group>"; };
 		2E24E0DA1BCA6D000038C0E1 /* ZYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTableViewCell.m; sourceTree = "<group>"; };
+		2E24E0DC1BCA70140038C0E1 /* ZYSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSettingItem.h; sourceTree = "<group>"; };
+		2E24E0DD1BCA70140038C0E1 /* ZYSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSettingItem.m; sourceTree = "<group>"; };
+		2E24E0E21BCA78190038C0E1 /* ZYSettingGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSettingGroup.h; sourceTree = "<group>"; };
+		2E24E0E31BCA78190038C0E1 /* ZYSettingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSettingGroup.m; sourceTree = "<group>"; };
+		2E24E0E51BCAB5800038C0E1 /* ZYSettingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSettingTableView.h; sourceTree = "<group>"; };
+		2E24E0E61BCAB5800038C0E1 /* ZYSettingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSettingTableView.m; sourceTree = "<group>"; };
 		2E66870A1BA8627400CB4B25 /* WangYiCaiPiao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WangYiCaiPiao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E66870E1BA8627400CB4B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E66871A1BA8627400CB4B25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -61,6 +74,14 @@
 		2E933B051BC8F162007A14B8 /* ZYArenaNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYArenaNavigationController.m; sourceTree = "<group>"; };
 		2E933B071BC904C5007A14B8 /* ZYMyLotteryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYMyLotteryViewController.xib; sourceTree = "<group>"; };
 		2E933B091BC96A95007A14B8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2E9E5C051BCBBBA0008C48A6 /* ZYDiscoverTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDiscoverTableView.h; sourceTree = "<group>"; };
+		2E9E5C061BCBBBA0008C48A6 /* ZYDiscoverTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDiscoverTableView.m; sourceTree = "<group>"; };
+		2E9E5C081BCBBBE6008C48A6 /* ZYDiscoverItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDiscoverItem.h; sourceTree = "<group>"; };
+		2E9E5C091BCBBBE6008C48A6 /* ZYDiscoverItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDiscoverItem.m; sourceTree = "<group>"; };
+		2E9E5C0B1BCBBD94008C48A6 /* ZYDiscoverGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDiscoverGroup.h; sourceTree = "<group>"; };
+		2E9E5C0C1BCBBD94008C48A6 /* ZYDiscoverGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDiscoverGroup.m; sourceTree = "<group>"; };
+		2E9E5C0E1BCBC247008C48A6 /* ZYDiscoverTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDiscoverTableViewCell.h; sourceTree = "<group>"; };
+		2E9E5C0F1BCBC247008C48A6 /* ZYDiscoverTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDiscoverTableViewCell.m; sourceTree = "<group>"; };
 		2EA1098E1BBD2A3F002DE192 /* ZYArenaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYArenaViewController.h; sourceTree = "<group>"; };
 		2EA1098F1BBD2A3F002DE192 /* ZYArenaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYArenaViewController.m; sourceTree = "<group>"; };
 		2EA109941BBD2A3F002DE192 /* ZYDiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDiscoveryViewController.h; sourceTree = "<group>"; };
@@ -127,6 +148,10 @@
 		2E24E0D21BCA290C0038C0E1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2E24E0DC1BCA70140038C0E1 /* ZYSettingItem.h */,
+				2E24E0DD1BCA70140038C0E1 /* ZYSettingItem.m */,
+				2E24E0E21BCA78190038C0E1 /* ZYSettingGroup.h */,
+				2E24E0E31BCA78190038C0E1 /* ZYSettingGroup.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -136,6 +161,8 @@
 			children = (
 				2E24E0D91BCA6D000038C0E1 /* ZYTableViewCell.h */,
 				2E24E0DA1BCA6D000038C0E1 /* ZYTableViewCell.m */,
+				2E24E0E51BCAB5800038C0E1 /* ZYSettingTableView.h */,
+				2E24E0E61BCAB5800038C0E1 /* ZYSettingTableView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -282,6 +309,10 @@
 		2EA109961BBD2A3F002DE192 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2E9E5C081BCBBBE6008C48A6 /* ZYDiscoverItem.h */,
+				2E9E5C091BCBBBE6008C48A6 /* ZYDiscoverItem.m */,
+				2E9E5C0B1BCBBD94008C48A6 /* ZYDiscoverGroup.h */,
+				2E9E5C0C1BCBBD94008C48A6 /* ZYDiscoverGroup.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -289,6 +320,10 @@
 		2EA109971BBD2A3F002DE192 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2E9E5C051BCBBBA0008C48A6 /* ZYDiscoverTableView.h */,
+				2E9E5C061BCBBBA0008C48A6 /* ZYDiscoverTableView.m */,
+				2E9E5C0E1BCBC247008C48A6 /* ZYDiscoverTableViewCell.h */,
+				2E9E5C0F1BCBC247008C48A6 /* ZYDiscoverTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -620,6 +655,7 @@
 			files = (
 				2EA109C51BBD2A3F002DE192 /* AppDelegate.m in Sources */,
 				2EA109C31BBD2A3F002DE192 /* ZYTabBarButton.m in Sources */,
+				2E9E5C101BCBC247008C48A6 /* ZYDiscoverTableViewCell.m in Sources */,
 				2E24E0DB1BCA6D000038C0E1 /* ZYTableViewCell.m in Sources */,
 				2E933AFE1BC8D82E007A14B8 /* UIImage+ZYImage.m in Sources */,
 				2E24E0D71BCA297F0038C0E1 /* ZYSettingTableViewController.m in Sources */,
@@ -627,13 +663,19 @@
 				2E933B011BC8DCEC007A14B8 /* ZYPopMenuView.m in Sources */,
 				2EA109C01BBD2A3F002DE192 /* ZYNavigationController.m in Sources */,
 				2E933B061BC8F162007A14B8 /* ZYArenaNavigationController.m in Sources */,
+				2E24E0E41BCA78190038C0E1 /* ZYSettingGroup.m in Sources */,
 				2EA109BF1BBD2A3F002DE192 /* ZYLotteryHallViewController.m in Sources */,
 				2EA109C21BBD2A3F002DE192 /* ZYTabBar.m in Sources */,
 				2EA109BD1BBD2A3F002DE192 /* ZYDiscoveryViewController.m in Sources */,
 				2EA109BC1BBD2A3F002DE192 /* ZYArenaViewController.m in Sources */,
 				2EA109C11BBD2A3F002DE192 /* ZYTabBarController.m in Sources */,
+				2E9E5C0D1BCBBD94008C48A6 /* ZYDiscoverGroup.m in Sources */,
+				2E24E0E71BCAB5800038C0E1 /* ZYSettingTableView.m in Sources */,
+				2E9E5C0A1BCBBBE6008C48A6 /* ZYDiscoverItem.m in Sources */,
 				2E933AFB1BC8D7F8007A14B8 /* main.m in Sources */,
+				2E9E5C071BCBBBA0008C48A6 /* ZYDiscoverTableView.m in Sources */,
 				2EA109C41BBD2A3F002DE192 /* ZYMyLotteryViewController.m in Sources */,
+				2E24E0DE1BCA70140038C0E1 /* ZYSettingItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

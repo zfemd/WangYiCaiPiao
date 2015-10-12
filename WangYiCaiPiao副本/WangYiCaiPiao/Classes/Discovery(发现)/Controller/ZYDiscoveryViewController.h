@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZYDiscoveryViewController : UIViewController
+@interface ZYDiscoveryViewController : UITableViewController
 
 @end

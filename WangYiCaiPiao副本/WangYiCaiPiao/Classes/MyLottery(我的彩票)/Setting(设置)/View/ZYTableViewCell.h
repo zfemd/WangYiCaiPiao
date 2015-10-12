@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class ZYSettingItem;
 
 @interface ZYTableViewCell : UITableViewCell
+
++ (instancetype)cellWithTableView:(UITableView *)tableView;
+
+/** cell数据模型 */
+@property (nonatomic,strong) ZYSettingItem *item;
 
 @end
