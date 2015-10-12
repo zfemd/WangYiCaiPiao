@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-platform :<#ios#>, "<#6.0#>"
 
-pod "<#PodName#>"
-
-target :<#TargetName#>Tests, :exclusive => true do
-  # pod 'Kiwi'
-end
-=======
 platform :ios, "8.0"
 
 pod "MBProgressHUD"
->>>>>>> origin/master
