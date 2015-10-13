@@ -38,7 +38,7 @@
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     [btn setImage:[UIImage imageNamed:@"lamp"] forState:UIControlStateNormal];
-    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"lamp"] style:UIBarButtonItemStyleDone target:self action:@selector(backClick)];
+//    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"lamp"] style:UIBarButtonItemStyleDone target:self action:@selector(backClick)];
     
     // 去除Cell分割线
 //    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
