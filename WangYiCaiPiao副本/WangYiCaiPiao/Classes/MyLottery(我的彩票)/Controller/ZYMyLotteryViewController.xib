@@ -44,7 +44,7 @@
                         <constraint firstAttribute="width" constant="330" id="bhF-q9-law"/>
                     </constraints>
                     <state key="normal" title="登录" backgroundImage="RedButton"/>
-                    <state key="highlighted" image="67FA2ECF-83C3-4D42-A569-51883C561493"/>
+                    <state key="highlighted" image="6595FB4D-D3EA-43D5-86A9-F4B573273287"/>
                     <variation key="default">
                         <mask key="constraints">
                             <exclude reference="bhF-q9-law"/>
@@ -154,7 +154,7 @@
         </view>
     </objects>
     <resources>
-        <image name="67FA2ECF-83C3-4D42-A569-51883C561493" width="61" height="34">
+        <image name="6595FB4D-D3EA-43D5-86A9-F4B573273287" width="61" height="34">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
